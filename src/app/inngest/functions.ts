@@ -26,7 +26,7 @@ import { inngest } from "./client";
       const llmResult = await step.ai.infer("LLM-call", {
         model: step.ai.models.gemini({
           model: "gemini-2.5-flash",
-          apiKey:'AIzaSyA-BHshOxY3CbtVsI_j-Y3Ke-iZpABubQs',
+          apiKey:'...',
         }),
         body: {
           contents: [
